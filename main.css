@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.serial {
+  width: 200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #eee;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 4px;
+  height: 66.5px;
+}
+.generate {
+  width: fit-content;
+  display: block;
+  margin: 20px auto;
+  padding: 10px 15px;
+  background-color: #ff8800;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+.generate:hover {
+  background-color: #ff7300;
+}
